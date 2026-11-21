@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "eventos": [
+    {
+      "titulo": "Cumple Bestie",
+      "fecha": "1990-11-16",
+      "todo_el_dia": true,
+      "inicio": null,
+      "fin": null,
+      "color": "verde",
+      "anual": true,
+      "notas": "",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Aniversario",
+      "fecha": "2020-11-28",
+      "todo_el_dia": true,
+      "inicio": null,
+      "fin": null,
+      "color": "azul",
+      "anual": true,
+      "notas": "",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Dentista",
+      "fecha": "2026-11-16",
+      "todo_el_dia": false,
+      "inicio": "10:00",
+      "fin": "10:30",
+      "color": "rojo",
+      "anual": false,
+      "notas": "Llevar tarjeta",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Clase de japonés",
+      "fecha": "2026-11-17",
+      "todo_el_dia": false,
+      "inicio": "18:00",
+      "fin": "19:30",
+      "color": "morado",
+      "anual": false,
+      "notas": "",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Gimnasio",
+      "fecha": "2026-11-18",
+      "todo_el_dia": false,
+      "inicio": "19:00",
+      "fin": "20:00",
+      "color": "verde",
+      "anual": false,
+      "notas": "",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Entrega práctica",
+      "fecha": "2026-11-20",
+      "todo_el_dia": true,
+      "inicio": null,
+      "fin": null,
+      "color": "naranja",
+      "anual": false,
+      "notas": "",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Llamar al banco",
+      "fecha": "2026-11-20",
+      "todo_el_dia": false,
+      "inicio": "09:00",
+      "fin": "09:30",
+      "color": "gris",
+      "anual": false,
+      "notas": "",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Revisar el repositorio del proyecto",
+      "fecha": "2026-11-20",
+      "todo_el_dia": false,
+      "inicio": "11:00",
+      "fin": "12:30",
+      "color": "azul",
+      "anual": false,
+      "notas": "Antes de la entrega",
+      "mostrar_edad": true
+    },
+    {
+      "titulo": "Cena con amigos",
+      "fecha": "2026-11-20",
+      "todo_el_dia": false,
+      "inicio": "21:00",
+      "fin": "23:00",
+      "color": "morado",
+      "anual": false,
+      "notas": "",
+      "mostrar_edad": true
+    }
+  ]
+}

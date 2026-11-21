@@ -1,0 +1,20 @@
+name: tests
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, ubuntu-latest]
+        python: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python }}
+      # En Windows el runner tiene escritorio: ahí corre también test_gui.py (tkinter real).
+      # En Ubuntu no hay pantalla, así que test_gui.py se salta solo y corre modelo.
+      - run: python -m unittest -v

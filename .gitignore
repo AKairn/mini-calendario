@@ -1,0 +1,14 @@
+# Datos personales: nunca al repo
+eventos.json
+eventos.json.tmp
+
+# Notas de trabajo personales (en español); en el repo solo va el README
+PROYECTO.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Editores
+.vscode/
+.idea/
